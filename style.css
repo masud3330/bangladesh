@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: #F5F5F5;
 }
 .navbarContainer{
 
@@ -47,6 +48,9 @@ body{
     color: white;
     border: none;
     cursor: pointer;
+}
+.ExploreBtn:hover{
+    background-color:#005540 ;
 }
 .pillersContainer{
     width: 1280px;
@@ -114,7 +118,10 @@ body{
     background-image:url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     
+  background-position:  20px 8px;
+    
     background-color: aliceblue;
+    border-radius: 20px;
 }
 .testimoniaContent{
     padding: 20px;
@@ -157,9 +164,12 @@ table {
     gap: 30px;
     height: 290px;
     padding: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     box-shadow: 2px 2px 5px rgb(245, 244, 244);
     border-radius: 10px;
+}
+.NewsSection:hover{
+    background-color: rgb(237, 236, 236);
 }
 .newsContent{
    
@@ -205,8 +215,14 @@ table {
     box-shadow: 2px 2px 5px rgb(241, 239, 239);
   
 }
+.donateAmmount:hover{
+    background-color: #afeed0;
+}
 .taka200{
     background-color: #C6E4D6;
+}
+.taka200:hover{
+    background-color: #afeed0;
 }
 .OtherAmmount{
     width: 1030px;
