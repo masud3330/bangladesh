@@ -1,0 +1,273 @@
+body{
+    font-family: sans-serif;
+}
+.navbarContainer{
+
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+   
+}
+.signBtn{
+    padding: 10px;
+    background-color: white;
+    color: #006A50;
+    border: 2px solid #006A50;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bannerContainer{
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+.bannerSubContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerSubContainer img{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 100px;
+    height: 300px;
+}
+.bannerHeadline{
+    padding: 20px 0px 20px 50px;
+
+}
+.ExploreBtn{
+    background:#006A50;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.pillersContainer{
+    width: 1280px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pillersContainerCards{
+ display: flex;
+ gap: 20px;
+}
+.pillersContainerCard{
+    width: 300px;
+    height: 244px;
+    /* background-color: #006A50; */
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+    padding: 20px;
+}
+
+.vissionFeatureContainer{
+    width: 1280px;
+    margin: auto;  
+    margin-bottom: 20px; 
+}
+.vissionFeatureCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.vissionFeatureCard{
+    width: 410px;
+   
+}
+.vissionFeatureCard1{
+    background-color: #81B4FC;
+   
+}
+.vissionFeatureCard2{
+    background-color: #C6E4D6;
+}
+.vissionFeatureCard3{
+    background-color: #F7EBCF;
+}
+.learnBtn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.learnBtn1{
+    background-color: #5490F5 ;
+}
+.learnBtn2{
+    background-color: #09A15C;
+}
+.learnBtn3{
+    background-color: #FFC239;
+}
+
+.testimonialPart{
+    width: 1280px;
+    margin: auto;
+    background-image:url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    
+    background-color: aliceblue;
+}
+.testimoniaContent{
+    padding: 20px;
+}
+
+.OpinionContainer{
+    width: 1280px;
+    margin: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  .agreeBtn{
+    background-color: #C6E4D6;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .tableHead{
+    background-color: #C6E4D6;
+  }
+
+.recentNews{
+    width: 1280px;
+    margin: auto;
+}
+
+.NewsSection{
+    display: flex;
+    gap: 30px;
+    height: 290px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgb(245, 244, 244);
+    border-radius: 10px;
+}
+.newsContent{
+   
+}
+.dateTime{
+    display: flex;
+    gap: 20px;
+}
+.newsContent p{
+    text-align: justify;
+}
+.imgSatelite{
+    border-radius: 10px;
+    height: 306px;
+}
+
+.donateSection{
+    width: 1280px;
+    margin: auto;
+}
+.donateHeading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.donateHeading p{
+    width: 1000px;
+    margin: auto;
+}
+.donateAmmountContainer{
+    display: flex;
+    gap: 30px;
+    width: 1070px;
+    /* margin:auto; */
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+.donateAmmount{
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(241, 239, 239);
+  
+}
+.taka200{
+    background-color: #C6E4D6;
+}
+.OtherAmmount{
+    width: 1030px;
+    margin: 20px auto;
+   box-shadow: 2px 2px 2px rgb(241, 239, 239) ;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(151, 150, 150);
+}
+.doneBtn{
+    display: flex;
+    margin: 20px auto;
+    
+
+}
+
+.footer{
+    width: 1280px;
+    margin: auto;
+    background-color: #C6E4D6;
+    padding:30px 0px;
+}
+.footerHeader{
+    text-align: center;
+}
+.footerPeragraph{
+    width: 620px;
+    text-align: center;
+    margin: auto;
+}
+.searchContainer{
+    width: 620px;
+    margin: 10px auto;
+    /* background-color: red; */
+}
+.searchBar{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    
+}
+
+.promise{
+    text-align: center;
+    margin: 30px auto;
+    color: darkgray;
+}
+footer{
+    width: 1280px;
+    margin: 20px auto;
+}
+.footerHeading{
+    text-align: center;
+    border-bottom: 2px solid rgb(187, 185, 185);
+}
+.footerImg{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+   
+    margin: 10px auto;
+   
+}
