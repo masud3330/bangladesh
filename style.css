@@ -70,6 +70,9 @@ body{
     box-shadow: 3px 3px 10px grey;
     padding: 20px;
 }
+.pillersContainerCard:hover{
+    background-color: rgb(228, 225, 225);
+}
 
 .vissionFeatureContainer{
     width: 1280px;
@@ -102,6 +105,9 @@ body{
     cursor: pointer;
     color: white;
 }
+.learnBtn:hover{
+    background-color: #006A50;
+}
 .learnBtn1{
     background-color: #5490F5 ;
 }
@@ -118,7 +124,7 @@ body{
     background-image:url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     
-  background-position:  20px 8px;
+  background-position:  20px 5px;
     
     background-color: aliceblue;
     border-radius: 20px;
